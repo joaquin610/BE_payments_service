@@ -1,0 +1,14 @@
+{
+  "id": "c57601c1-fa01-4118-8f2e-2ac7cb84ecc7",
+  "name": "PaymentsEnv",
+  "values": [
+    {
+      "key": "base_url_payments",
+      "value": "http://18.210.11.11/payments",
+      "enabled": true
+    }
+  ],
+  "_postman_variable_scope": "environment",
+  "_postman_exported_at": "2024-07-17T20:02:36.856Z",
+  "_postman_exported_using": "Postman/9.31.0"
+}
