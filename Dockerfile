@@ -6,7 +6,7 @@ RUN mvn clean package
 
 FROM openjdk:8-jdk-alpine
 VOLUME /tmp
-EXPOSE 8081
+EXPOSE 80
 COPY --from=build /app/target/payments-service-example-0.0.1-SNAPSHOT-spring-boot.jar app.jar
 CMD ["java", "-jar", "app.jar"]
 
@@ -14,5 +14,5 @@ CMD ["java", "-jar", "app.jar"]
 
 # intrucciones para generar una img y el contenedor corectamentes                          
 # docker build -t be_payments_service .                                            
-# docker run -d --name be_payments_service_container -p 8081:8081 be_payments_service
-# docker run -d --name be_payments_service_container --network my_network -p 8081:8081 be_payments_service
+# docker run -d --name be_payments_service_container -p 80:80 be_payments_service
+# docker run -d --name be_payments_service_container --network my_network -p 80:80 be_payments_service
