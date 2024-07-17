@@ -1,33 +1,14 @@
 {
-	"id": "386b3183-b8c0-448f-a3ab-2b36c2380b17",
-	"name": "TESTEnv",
-	"values": [
-		{
-			"key": "base_url_orders",
-			"value": "http://localhost:8080/orders",
-			"type": "default",
-			"enabled": true
-		},
-		{
-			"key": "base_url_payments",
-			"value": "http://localhost:8081/payments",
-			"type": "default",
-			"enabled": true
-		},
-		{
-			"key": "base_url_shipping",
-			"value": "http://localhost:8082/shipping",
-			"type": "default",
-			"enabled": true
-		},
-		{
-			"key": "base_url_products",
-			"value": "http://localhost:8083/products",
-			"type": "default",
-			"enabled": true
-		}
-	],
-	"_postman_variable_scope": "environment",
-	"_postman_exported_at": "2024-07-14T18:47:47.429Z",
-	"_postman_exported_using": "Postman/9.31.0"
+  "id": "c57601c1-fa01-4118-8f2e-2ac7cb84ecc7",
+  "name": "PaymentsEnv",
+  "values": [
+    {
+      "key": "base_url_payments",
+      "value": "http://18.210.11.11/payments",
+      "enabled": true
+    }
+  ],
+  "_postman_variable_scope": "environment",
+  "_postman_exported_at": "2024-07-17T20:02:36.856Z",
+  "_postman_exported_using": "Postman/9.31.0"
 }
