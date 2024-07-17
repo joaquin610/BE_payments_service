@@ -4,7 +4,7 @@
   "values": [
     {
       "key": "base_url_payments",
-      "value": "http://44.199.202.154/payments",
+      "value": "http://18.210.11.11/payments",
       "enabled": true
     }
   ],
